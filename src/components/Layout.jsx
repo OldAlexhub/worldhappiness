@@ -7,7 +7,7 @@ const Layout = () => {
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            World Happiness Dashboard
+            World Happiness Report
           </Link>
           <button
             className="navbar-toggler"

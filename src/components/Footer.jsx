@@ -1,19 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-dark text-light py-3">
+    <footer className="bg-dark text-light py-2">
       <div className="container text-center">
-        <p>
-          &copy; {new Date().getFullYear()} World Happiness Prediction Project
-        </p>
-        <p>
-          Built with ❤️ by Mohamed Gad |{" "}
-          <Link to="https://mohamedgad.com" className="text-light">
-            mohamedgad.com
-          </Link>
-        </p>
+        <small>
+          &copy; {new Date().getFullYear()} World Happiness Prediction
+        </small>
       </div>
     </footer>
   );
